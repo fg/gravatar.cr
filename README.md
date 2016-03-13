@@ -1,31 +1,25 @@
 # gravatar
 
-TODO: Write a description here
-
 ## Installation
 
+Add this to your application's `shard.yml`:
 
-TODO: Write installation instructions here
-
+```yaml
+dependencies:
+  spotify:
+    github: fg/gravatar.cr
+```
 
 ## Usage
+Add this to your application's shard.yml:
 
+```crystal
+require "gravatar"
 
-
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
-
-## Contributing
-
-1. Fork it ( https://github.com/[your-github-name]/gravatar/fork )
-2. Create your feature branch (git checkout -b my-new-feature)
-3. Commit your changes (git commit -am 'Add some feature')
-4. Push to the branch (git push origin my-new-feature)
-5. Create a new Pull Request
+puts Gravatar::Picture.profilePicture("example@email.com")
+# => http://www.gravatar.com/avatar/8455938a1db5c475a87d76edacb6284e
+```
 
 ## Contributors
 
-- [[your-github-name]](https://github.com/[your-github-name]) Fatih GÜRSOY - creator, maintainer
+- [fg](https://github.com/fg) Fatih GÜRSOY - creator, maintainer
