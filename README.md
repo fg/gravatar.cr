@@ -6,7 +6,7 @@ Add this to your application's `shard.yml`:
 
 ```yaml
 dependencies:
-  spotify:
+  gravatar:
     github: fg/gravatar.cr
 ```
 
