@@ -1,4 +1,4 @@
-# gravatar
+# gravatar.cr
 
 ## Installation
 
